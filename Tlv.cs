@@ -36,12 +36,12 @@ namespace tlv_project
 
 
         }
-        public void insertTag(List<TlvModel> model)
+        public void insertTag()
         {
             try
             {
                 StreamWriter sw = new StreamWriter("test.txt");
-                foreach (var item in model)
+                foreach (var item in modelList)
                 {
                     sw.WriteLine($"{item.tag},{item.description}");
                 }
@@ -135,7 +135,7 @@ namespace tlv_project
         public void setTag(TlvModel model)
         {
             modelList.Add(model);
-            insertTag(modelList);
+            insertTag();
         }
     }
 }

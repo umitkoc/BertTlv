@@ -8,7 +8,7 @@ namespace tlv_project
     public interface IFile
     {
         public void readTag();
-        public void insertTag(List<TlvModel> model);
+        public void insertTag();
         public int writeFile(String parser);
     }
 }
