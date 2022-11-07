@@ -1,6 +1,0 @@
-|------ tag: 6F(File Control Information (FCI) Template)
-	|------ tag: 84(Dedicated File (DF) Name)	|------ value -->  1PA9.SYS.DDF01 
-	|------ tag: A5(File Control Information (FCI) Proprietary Template)
-			|------ tag: 88(Short File Identifier (SFI))			|------ value -->   
-			|------ tag: 5F2D(Language Preference)			|------ value -->  ee 
-
